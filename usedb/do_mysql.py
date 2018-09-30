@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 # 导入mysql驱动
+# pip3 install mysql-connector
 import mysql.connector
 
 conn = mysql.connector.connect(user='root', password='000000', database='python_db')
