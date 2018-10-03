@@ -4,6 +4,7 @@
 from data_visualization.die import Die
 import pygal
 
+# two die
 die_six = Die()
 die_ten = Die(10)
 results = []
