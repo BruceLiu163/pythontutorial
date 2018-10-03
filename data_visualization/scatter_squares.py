@@ -5,6 +5,7 @@
 import matplotlib.pyplot as plt
 
 
+# simple
 def scatter_simple():
     x_values = [1, 2, 3, 4, 5]
     y_values = [1, 4, 9, 16, 25]
@@ -17,6 +18,7 @@ def scatter_simple():
     plt.show()
 
 
+# basic setting
 def scatter_setting():
     x_values = list(range(1, 1001))
     y_values = [x ** 2 for x in x_values]
