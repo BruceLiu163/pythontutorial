@@ -52,7 +52,7 @@
 # Namespaces are one honking great idea -- let's do more of those!
 # 命名空间是一种绝妙的理念，我们应当多加利用
 
-# 导入mysql驱动
+# 导入sqlite3驱动
 import sqlite3
 
 conn = sqlite3.connect('test.db')
