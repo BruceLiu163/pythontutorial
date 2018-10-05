@@ -117,8 +117,8 @@ def scatter_gradient_color():
     # set axis's scope
     plt.axis([0, 1100, 0, 1100000])
 
-    # plt.show()
-    plt.savefig('squares_plot.png', bbox_inches='tight')
+    plt.show()
+    # plt.savefig('squares_plot.png', bbox_inches='tight')
 
 
 scatter_simple()
