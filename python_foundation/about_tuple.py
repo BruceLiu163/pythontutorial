@@ -29,3 +29,5 @@ tup4 = tup3 * 2
 print(tup4)
 
 print(tup4[2:])
+
+print(tup4.count(6))
