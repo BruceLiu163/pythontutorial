@@ -6,6 +6,11 @@
     如果没有return语句，默认返回None; return None可以简写为return
 函数返回值：
     可以有多个返回值，本质上返回的是一个tuple
+
+递归函数：一个函数在内部调用自身本身，这个函数就是递归函数
+    使用递归函数需要注意防止栈溢出
+    使用递归函数需要注意防止栈溢出
+    使用递归函数需要注意防止栈溢出
 """
 
 
@@ -23,16 +28,14 @@ def nop():
     pass
 
 
+def fact(n):
+    """递归函数"""
+    if n == 1:
+        return 1
+    return n * fact(n - 1)
+
+
 a = my_abs
 print(a(-1))
 
-
-
-
-
-
-
-
-
-
-
+print(fact(5))
