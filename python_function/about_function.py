@@ -22,6 +22,7 @@ def my_abs(x):
 def nop():
     pass
 
+
 a = my_abs
 print(a(-1))
 
