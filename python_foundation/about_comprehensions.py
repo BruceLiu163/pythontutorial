@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-列表生成式
-
+comprehensions:列表生成式
+    会一次性将所有的元素生成，可能存在的弊端是占用大量内存
 """
 import os
 L = [x * x for x in range(1, 11) if x % 2 == 0]
