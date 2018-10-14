@@ -36,10 +36,22 @@ class Student(object):
         self.name = name
         Student.count += 1
 
+    @staticmethod
+    def print_1():
+        print('This is a static method')
+
+    @classmethod
+    def get_count(cls):
+        print(cls.count)
+        return cls.count
+
 
 s1 = Student('Bruce')
 s2 = Student('Tina')
 print(Student.count)
+
+Student.print_1()
+Student.get_count()
 
 """类属性，实例属性"""
 
@@ -59,4 +71,3 @@ print(dog.name)
 dog.name = 'lulu'
 print(Dog.name)
 print(dog.name)
-
